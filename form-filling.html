@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>This is fieldset</title>
+        <style>
+            body{
+                padding:0 250px;
+                background-color: lightblue;
+            }
+            fieldset{
+                border:thick solid red;
+                background-color:burlywood;
+            }
+            legend{
+                background-color:blue;
+                text-align:left;
+                font-size:20px;
+            }
+            p{
+                font-size:25px;
+                text-align:center;
+            }
+            #submit{
+                padding:10px 15px;
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Form With fieldsets</h1>
+        <form>
+            <fieldset>
+            <legend>Login Details</legend>
+            <p>
+               <label>username:<br>
+               <input type="text" name="username" id="username"><label for="username"></label></label>
+            </p>
+            <p>
+                <label>password:<br>
+                <input type="password" name="password" id="password"><label for="password"></label></label>
+             </p>
+             <p>
+             <input type="submit" value="send" id="submit"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
